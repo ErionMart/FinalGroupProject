@@ -3,7 +3,7 @@
 | Date       |    Erion  |     Armend     |
 |------------|-----------|----------------|
 | Nov 7, Tue |    x      |       x        |
-| Nov 9, Thu |           |                |
+| Nov 9, Thu |    x      |       x        |
 | Nov 14, Tue|           |                |
 | Nov 16, Thu|           |                |
 | Nov 21, Tue|           |                |
