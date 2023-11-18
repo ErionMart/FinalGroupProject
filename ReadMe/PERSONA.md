@@ -1,6 +1,6 @@
 Persona Overview: Emily Johnson
 
-![Example Image](images/persona.jpg)
+![Example Image](images/persona.png)
 
 
 Attribute: Details
