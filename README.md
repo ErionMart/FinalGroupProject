@@ -1,4 +1,4 @@
--Link to the attendance sheet [Example PDF](ReadMe/example.pdf)
+-Link to the attendance sheet [Here](https://github.com/Armendo90/FinalGroupProject/blob/main/ReadMe/Attendance%20Schedule)
 
 
 -Link to the Competitors Analysis Here
