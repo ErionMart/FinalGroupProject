@@ -13,9 +13,9 @@
 
 ## Lifestyle and Preferences
 
-Hobbies: Apart from her current interests, Emily is likely to enjoy outdoor activities like hiking, especially on newly discovered trails.
-Social Media Usage: She would appreciate engaging and visually appealing content about hiking, sustainable outdoor gear, and environmental conservation.
-Shopping Preferences: Prefers products that are sustainable, high-quality, and offer a unique experience, such as customizable hiking shoes.
+-**Hobbies**: Apart from her current interests, Emily is likely to enjoy outdoor activities like hiking, especially on newly discovered trails.
+-**Social Media Usage**: She would appreciate engaging and visually appealing content about hiking, sustainable outdoor gear, and environmental conservation.
+-**Shopping Preferences**: Prefers products that are sustainable, high-quality, and offer a unique experience, such as customizable hiking shoes.
 
 ## Favorite Brands
 
