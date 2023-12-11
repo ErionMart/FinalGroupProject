@@ -23,8 +23,8 @@ Would appreciate brands that blend functionality with environmental consciousnes
 
 ## Goals and Challenges
 
-Goals: Expand her outdoor activities, possibly through hiking, to balance her wellness routine.
-Challenges: Balancing her interest in outdoor activities with her busy urban lifestyle.
+-**Goals**: Expand her outdoor activities, possibly through hiking, to balance her wellness routine.
+-**Challenges**: Balancing her interest in outdoor activities with her busy urban lifestyle.
 
 ## Hiking Preferences
 
