@@ -41,6 +41,6 @@ Enjoys being part of a community that values sustainability and outdoor activiti
 
 ## Engagement Strategies
 
-Social Media: Engage Emily through visually appealing posts showcasing beautiful hiking locations, sustainable practices, and innovative shoe designs.
-Events and Partnerships: Organize or sponsor hiking events and workshops, offering her opportunities to connect with like-minded individuals and try out the products.
-Personalized Communication: Send personalized emails with hiking tips, new trail discoveries, and product recommendations based on her preferences.
+-**Social Media**: Engage Emily through visually appealing posts showcasing beautiful hiking locations, sustainable practices, and innovative shoe designs.
+-**Events and Partnerships**: Organize or sponsor hiking events and workshops, offering her opportunities to connect with like-minded individuals and try out the products.
+-**Personalized Communication**: Send personalized emails with hiking tips, new trail discoveries, and product recommendations based on her preferences.
