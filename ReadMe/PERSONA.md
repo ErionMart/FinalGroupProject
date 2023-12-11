@@ -34,10 +34,10 @@ Enjoys being part of a community that values sustainability and outdoor activiti
 
 ## How the Hiking Shoe Company Meets Emily's Needs
 
-Product Customization: Offering the ability to customize hiking shoes could appeal to Emily's creative side.
-Sustainability: Emphasizing sustainable materials and processes in shoe manufacturing aligns with her environmental values.
-Community Involvement: Donating a portion of sales to discover new paths resonates with her interest in environmental conservation and outdoor exploration.
-Brand Values: Commitment to sustainability, quality, and community involvement aligns with her lifestyle choices.
+-**Product Customization**: Offering the ability to customize hiking shoes could appeal to Emily's creative side.
+-**Sustainability**: Emphasizing sustainable materials and processes in shoe manufacturing aligns with her environmental values.
+-**Community Involvement**: Donating a portion of sales to discover new paths resonates with her interest in environmental conservation and outdoor exploration.
+-**Brand Values**: Commitment to sustainability, quality, and community involvement aligns with her lifestyle choices.
 
 ## Engagement Strategies
 
