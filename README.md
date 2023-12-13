@@ -15,4 +15,4 @@
 
 -Link to the User Stories [Here](https://github.com/Armendo90/FinalGroupProject/blob/main/ReadMe/SALES-FUNNEL.md)
 
--Link to Figma Designs [Here] (https://www.figma.com/file/Ck74h2OQJEXWI0BE6x3o38/Trailside--Hiking-Shoe-(Copy)?type=design&node-id=0%3A1&mode=design&t=SVshUGzmTh5oNFks-1)
+-Link to Fima Designs [Here] (https://www.figma.com/file/Ck74h2OQJEXWI0BE6x3o38/Trailside--Hiking-Shoe-(Copy)?type=design&node-id=0%3A1&mode=design&t=SVshUGzmTh5oNFks-1)
