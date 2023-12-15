@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #3c2f2f; /* The dark brown background color */
+    background: linear-gradient(90deg, #4e3838, #3e2b2b); /* Gradient from blue to white */
     display: flex;
     justify-content: space-between;
     align-items: center;
