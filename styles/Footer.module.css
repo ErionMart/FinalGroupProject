@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px; /* Adjust this value to increase the gap */
+    margin-top: 200px; /* Adjust this value to increase the gap */
   }
   
   .footerContent {
