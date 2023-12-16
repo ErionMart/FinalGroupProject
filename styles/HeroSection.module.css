@@ -1,42 +1,41 @@
 .hero {
-    background-image: url('/Hero.png'); /* Adjust the path to where your image is stored */
-    height: 50vh; /* Full viewport height */
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    padding-left: 4rem; /* Adjust based on your design preference */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  background-image: url('/Hero.png'); /* Adjust the path to where your image is stored */
+  height: 50vh; /* Full viewport height */
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 4rem; /* Adjust based on your design preference */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
 
-  }
-  
-  .contentBox {
-    background-color: #e6e2e2;
-    padding: 2rem;
-    width: fit-content;
-    border-radius: 10px; /* Optional rounded corners */
+}
 
-  }
-  
-  .contentBox h1 {
-    margin: 0;
-    color: #333; /* Adjust the color to fit your design */
-    font-size: 2rem; /* Adjust the size as needed */
-    text-decoration: underline;
+.contentBox {
+  background-color: #e6e2e2;
+  padding: 2rem;
+  width: fit-content;
+  border-radius: 10px; /* Optional rounded corners */
 
+}
+
+.contentBox h1 {
+  margin: 0;
+  color: #333; /* Adjust the color to fit your design */
+  font-size: 2rem; /* Adjust the size as needed */
+  text-decoration: underline;
+
+}
+
+.contentBox p {
+  color: #000; /* Adjust the color to fit your design */
+  font-size: 1rem; /* Adjust the size as needed */
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding-left: 1rem; /* Adjust padding for smaller screens */
   }
-  
-  .contentBox p {
-    color: #000; /* Adjust the color to fit your design */
-    font-size: 1rem; /* Adjust the size as needed */
-  }
-  
-  @media (max-width: 768px) {
-    .hero {
-      padding-left: 1rem; /* Adjust padding for smaller screens */
-    }
-    /* Adjust other elements as necessary */
-  }
-  
+  /* Adjust other elements as necessary */
+}
