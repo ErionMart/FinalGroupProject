@@ -4,6 +4,7 @@ import HeroSection from '../components/HeroSection';
 import StylesSection from '../components/StylesSection';
 import SignUpSection from '../components/SignUpSection';
 import TestimonialSection from '../components/TestimonialSection';
+import Footer from '../components/Footer'; // Import the new component
 
 const Home = () => {
   return (
@@ -13,7 +14,7 @@ const Home = () => {
       <StylesSection />
       <SignUpSection />
       <TestimonialSection />
-      {/* The rest of your page content */}
+      <Footer /> {/* Include the Footer component */}
     </>
   );
 };
