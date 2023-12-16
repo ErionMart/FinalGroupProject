@@ -1,0 +1,63 @@
+.signupContainer {
+  background-color: #000; /* Match your design's background color */
+  color: #fff; /* Text color */
+  text-align: center;
+  padding: 1rem;
+  margin: 4rem auto;
+  width: 80%; /* Adjust width as necessary */
+  border-radius: 8px; /* Optional rounded corners */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.signupText {
+  margin-bottom: 1rem;
+  font-size: 1.75rem; /* Adjust font size as necessary */
+}
+
+.inputContainer {
+  display: flex;
+  gap: 1rem; /* Spacing between input and button */
+  flex-wrap: wrap; /* Wrap for smaller screens */
+  justify-content: center;
+  align-items: center; /* Vertically align input and button */
+}
+
+/* Update styles for email input */
+.emailInput {
+  width: auto; /* Let the input grow to fit the available space */
+  flex-grow: 1; /* Allow the input to grow to fill the space */
+  padding: 0.5rem 1rem; /* Adjust padding as necessary */
+  font-size: 1rem; /* Adjust font size as necessary */
+}
+
+/* Update styles for submit button */
+.submitButton {
+  background-color: #197734; /* Background color for the button */
+  color: #ffffff; /* Text color for the button */
+  border: none; /* Remove the border */
+  padding: 0.5rem 2rem; /* Adjust padding as necessary */
+  font-size: 1rem; /* Adjust font size as necessary */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  border-radius: 10px; /* Optional rounded corners */
+  transition: background-color 0.3s ease; /* Add a smooth hover effect for the background color */
+
+  /* Center the button */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hover effect for the button */
+.submitButton:hover {
+  background-color: #0e4a1f; /* Change the background color on hover */
+}
+
+/* Add responsiveness */
+@media (max-width: 600px) {
+  .signupContainer {
+    width: 90%;
+  }
+}

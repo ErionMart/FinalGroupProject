@@ -1,0 +1,70 @@
+/* styles/Footer.module.css */
+.footer {
+  background: linear-gradient(270deg, #5A4B4B, #2E2114);
+  color: white;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+  flex-wrap: wrap; /* Allow the footer content to wrap on smaller screens */
+}
+
+.footerSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align items for smaller screens */
+  margin: 10px; /* Add some spacing around each section */
+}
+
+.footerTitle {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.footerHeading {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.footerList {
+  list-style: none;
+  padding: 0;
+  text-align: center; /* Center the text for smaller screens */
+}
+
+.footerList li {
+  margin-bottom: 0.25rem;
+}
+
+/* Media queries */
+@media (max-width: 1024px) {
+  .footerContent {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .footerSection {
+      margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+      padding: 20px;
+      margin-top: 100px; /* Reduce the top margin for smaller screens */
+  }
+
+  .footerList li {
+      font-size: 0.9rem; /* Adjust font size for smaller screens */
+  }
+}

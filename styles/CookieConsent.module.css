@@ -1,0 +1,51 @@
+/* styles/CookieConsent.module.css */
+.cookieConsent {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0; /* Ensure it extends fully to the right */
+    background: #333;
+    color: #fff;
+    padding: 10px 20px; /* Provide sufficient padding */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000; /* Ensure it's above other content */
+    box-sizing: border-box; /* Include padding in the element's size */
+  }
+  
+  .cookieConsent p {
+    margin: 0;
+    flex-grow: 1; /* Allow paragraph to grow and shrink as needed */
+  }
+  
+  .cookieConsent a {
+    color: #9cf;
+    margin-right: 10px; /* Space between the link and the button */
+  }
+  
+  .cookieConsent button {
+    padding: 10px 20px; /* Adequate padding for the button */
+    background: #9cf;
+    color: #333;
+    border: none;
+    border-radius: 5px; /* Optional: if you want rounded corners */
+    cursor: pointer;
+  }
+  
+  /* Add media query for responsive adjustments */
+  @media (max-width: 768px) {
+    .cookieConsent {
+      flex-direction: column; /* Stack elements vertically on small screens */
+      align-items: stretch; /* Stretch children to fit the container width */
+    }
+  
+    .cookieConsent p {
+      margin-bottom: 10px; /* Add space below the paragraph */
+    }
+  
+    .cookieConsent a {
+      margin: 0 0 10px 0; /* Add space below the link */
+    }
+  }
+  

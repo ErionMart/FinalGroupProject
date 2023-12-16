@@ -1,0 +1,62 @@
+/* StylesSection.module.css */
+
+.stylesContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: inherit;
+  width: 100%;
+}
+
+.shopTitle {
+  font-size: 3rem; /* Increased font size for visibility */
+  text-align: left; /* Keep the title aligned to the left */
+  margin-left: 2rem; /* Space from the left edge */
+  color: #fff; /* Dark color for the title */
+  margin-bottom: 2rem; /* Space above the boxes */
+}
+
+.styleBox {
+  width: 200px; /* Adjust the width as needed */
+  text-align: center; /* Centers the text inside each box */
+  padding: 1rem;
+  background-color: #fff; /* White background for each box */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for aesthetic */
+  margin: 1rem; /* Margin around the boxes */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: space-between; /* Space between elements */
+  height: 300px; /* Fixed height for all boxes */
+}
+
+.shoeImage {
+  width: 100%; /* Image takes up the full width of the box */
+  height: auto; /* Height is automatic to keep the aspect ratio */
+  margin-bottom: auto; /* Pushes the text to the bottom */
+}
+
+/* Style for the text container that will be moved to the bottom of the page */
+.infoContainer {
+  display: flex; /* Flex layout for the container */
+  flex-wrap: wrap; /* Wrap items if they don't fit in one line */
+  justify-content: space-around; /* Space around items */
+  align-items: center; /* Vertically center items */
+  padding: 1rem; /* Padding around the container */
+}
+
+.infoBox {
+  text-align: center; /* Center the text inside the box */
+  margin: 1rem; /* Margin around each text box */
+  flex-basis: 200px; /* Flex basis to match the .styleBox width */
+}
+
+.price {
+  color: #333; /* Dark color for price */
+  font-size: 1.2rem; /* Size of the price text */
+  font-weight: bold; /* Bold font weight for price */
+}
+
+.description {
+  color: #000; /* Dark grey color for description */
+  font-size: 1rem; /* Size of the description text */
+}
