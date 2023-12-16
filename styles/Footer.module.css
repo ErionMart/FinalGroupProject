@@ -1,0 +1,44 @@
+/* styles/Footer.module.css */
+.footer {
+    background: linear-gradient(135deg, #5A4B4B, #2E2114);
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px; /* Adjust this value to increase the gap */
+  }
+  
+  .footerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px; /* Adjust based on your layout */
+    padding: 0 20px;
+  }
+  
+  .footerSection {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footerTitle {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footerHeading {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footerList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footerList li {
+    margin-bottom: 0.25rem;
+  }
+  
