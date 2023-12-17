@@ -1,3 +1,29 @@
+import React from 'react';
+import styles from '../styles/StylesSection.module.css';
+// Example stylesData array with new image paths
+const stylesData = [
+  {
+    src: '/LowWeight.webp',
+    description: 'Low Weight',
+    price: '$110',
+  },
+  {
+    src: '/MidWeight.webp',
+    description: 'Mid Weight',
+    price: '$140',
+  },
+  {
+    src: '/HeavyWeight.webp',
+    description: 'Heavy Weight',
+    price: '$160',
+  },
+  {
+    src: '/Winter.webp',
+    description: 'Winter',
+    price: '$180',
+  },
+  // ... other styles
+];
 const StylesSection = () => {
     // ... your existing code
   

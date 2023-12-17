@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <link rel="icon" href="/logo.png" /> {/* Reference to your logo.png file */}
+        <link rel="icon" href="/logo.webp" /> {/* Reference to your logo.png file */}
         <title>TrailStride</title> {/* You can also set a default title for all pages */}
         {/* Any other tags you want to include in the head */}
       </Head>

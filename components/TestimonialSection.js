@@ -15,7 +15,7 @@ const TestimonialSection = () => {
       <div className={styles.imageSection}>
         {/* Make sure the src path is correct. It should be just "/hiker.png" if hiker.png is directly in the public directory */}
         <Image
-          src="/hiker.png"
+          src="/hiker.webp"
           alt="Hiker Image"
           layout="fill"
           objectFit="cover"
