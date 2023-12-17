@@ -1,24 +1,35 @@
+// components/NavigationBar.js
 import React from 'react';
-import Link from 'next/link';
+import { useRouter } from 'next/router';
 import styles from '../styles/NavigationBar.module.css';
 
 const NavBar = () => {
+  const router = useRouter();
+
+  // Function to scroll to the desired section
+  const scrollToSection = (sectionId) => {
+    // Use the push method with the hash to scroll into view
+    router.push(`/#${sectionId}`);
+  };
+
   return (
     <nav className={styles.navbar}>
       <div className={styles.navbarContainer}>
-        <Link href="/" className={styles.navbarLogo}>
+        {/* Changed to a div and added an onClick event to scroll to the top of the page */}
+        <div className={styles.navbarLogo} onClick={() => scrollToSection('top')}>
           TRAILSTRIDE
-        </Link>
+        </div>
         <div className={styles.navbarMenu}>
-          <Link href="/styles-shoes" className={styles.navbarLink}>
+          {/* Changed to divs and added onClick events to scroll to the respective sections */}
+          <div className={styles.navbarLink} onClick={() => scrollToSection('styles')}>
             Styles/Shoes
-          </Link>
-          <Link href="/about-us" className={styles.navbarLink}>
+          </div>
+          <div className={styles.navbarLink} onClick={() => scrollToSection('about')}>
             About Us
-          </Link>
-          <Link href="/subscribe" className={styles.navbarLink}>
+          </div>
+          <div className={styles.navbarLink} onClick={() => scrollToSection('subscribe')}>
             Subscribe
-          </Link>
+          </div>
         </div>
       </div>
     </nav>
