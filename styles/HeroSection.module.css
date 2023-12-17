@@ -1,5 +1,5 @@
 .hero {
-  background-image: url('/Hero.png'); /* Adjust the path to where your image is stored */
+  background-image: url('/Hero.webp'); /* Adjust the path to where your image is stored */
   height: 50vh; /* Full viewport height */
   width: 100%;
   background-size: cover;
