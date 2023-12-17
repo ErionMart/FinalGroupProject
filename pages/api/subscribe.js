@@ -41,7 +41,7 @@ export default async (req, res) => {
       return res.status(400).json({ error: `There was an error subscribing to the newsletter. Send this info to the server admin: ${response.status}` });
     }
 
-    return res.status(200).json({ message: 'Success! 🎉 You are now subscribed to the newsletter.' });
+    return res.status(200).json({ message: 'You are now subscribed to the newsletter.' });
   } catch (error) {
     return res.status(500).json({ error: error.response?.data || 'There was an error subscribing to the newsletter.' });
   }

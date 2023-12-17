@@ -1,5 +1,6 @@
 // components/CookieConsent.js
 import React, { useState } from 'react';
+import Link from 'next/link'; // Import Link from Next.js
 import styles from '../styles/CookieConsent.module.css'; // CSS module for styling
 
 const CookieConsent = () => {
@@ -18,7 +19,10 @@ const CookieConsent = () => {
   return (
     <div className={styles.cookieConsent}>
       <p>We use cookies to improve your experience on our site. By continuing to use our site, you accept our use of cookies.</p>
-      <a href="/privacy-policy">Privacy Policy</a>
+      {/* Correct usage of Link component */}
+      <Link href="/policy">
+        Privacy Policy
+      </Link>
       <button onClick={handleConsent}>Accept</button>
     </div>
   );
