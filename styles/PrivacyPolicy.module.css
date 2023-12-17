@@ -1,0 +1,38 @@
+
+.privacyPolicyPage {
+    padding: 20px;
+    margin: auto;
+    max-width: 900px;
+    background-color: #fff; 
+    color: #000; 
+  }
+  
+  .privacyPolicyPage h1 {
+    text-align: center;
+    color: #3B5339; 
+    margin-bottom: 20px;
+  }
+  
+  .privacyPolicyPage section {
+    margin-bottom: 20px;
+  }
+  
+  .privacyPolicyPage h2 {
+    color: #615249;
+    margin-bottom: 10px;
+  }
+  
+  .privacyPolicyPage p, .privacyPolicyPage ul {
+    line-height: 1.5;
+    color: #000; 
+  }
+  
+  .privacyPolicyPage ul {
+    padding-left: 20px;
+    list-style-type: disc; 
+  }
+  
+  .privacyPolicyPage li {
+    margin-bottom: 10px;
+  }
+  
