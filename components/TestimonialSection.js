@@ -4,7 +4,7 @@ import styles from '../styles/TestimonialSection.module.css'; // CSS module for 
 
 const TestimonialSection = () => {
   return (
-    <div className={styles.container}>
+    <div id="about" className={styles.container}>
       <div className={styles.textSection}>
         <h1 className={styles.title}>About Us</h1> {/* Apply the title class here */}
         <p className={styles.paragraph}>
