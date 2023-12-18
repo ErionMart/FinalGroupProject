@@ -42,3 +42,30 @@
 .navbarLink.isActive {
   color: #d8a760; /* Highlight color when hovered or active */
 }
+@media (max-width: 768px) {
+  .navbarContainer {
+    /* Adjust the flex-direction for mobile */
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbarLogo {
+    /* Adjust logo size and padding for mobile */
+    font-size: 1.5em;
+    padding: 0.5em;
+  }
+
+  .navbarMenu {
+    /* Adjust menu layout for mobile */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbarLink {
+    /* Add more space around navbar items and larger font for mobile */
+    padding: 0.5em;
+    font-size: 1em;
+    display: block; /* Make each link full width */
+  }
+}
