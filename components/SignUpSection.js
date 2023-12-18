@@ -36,7 +36,7 @@ const SignUpSection = () => {
   };
 
   return (
-    <div className={styles.signupContainer}>
+    <div id="subscribe" className={styles.signupContainer}>
       <p className={styles.signupText}>
         Unlock Exclusive Savings Today! Sign up for our no-obligation free trial and discover the benefits firsthand. As a special thank you, we're offering a 20% discount on your next purchase.
       </p>
