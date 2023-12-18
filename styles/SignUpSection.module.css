@@ -56,8 +56,24 @@
 }
 
 /* Add responsiveness */
-@media (max-width: 600px) {
+/* Existing styles... */
+
+@media only screen and (max-width: 768px) {
   .signupContainer {
-    width: 90%;
+    padding: 20px;
+  }
+
+  .inputContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .emailInput {
+    margin-bottom: 10px;
+  }
+
+  .submitButton {
+    width: 100%;
   }
 }
+

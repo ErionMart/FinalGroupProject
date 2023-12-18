@@ -33,9 +33,16 @@
   font-size: 1rem; /* Adjust the size as needed */
 }
 
-@media (max-width: 768px) {
+/* Existing styles... */
+
+@media only screen and (max-width: 768px) {
   .hero {
-    padding-left: 1rem; /* Adjust padding for smaller screens */
+    padding: 20px;
+    text-align: center;
   }
-  /* Adjust other elements as necessary */
+
+  .contentBox {
+    width: 100%;
+  }
 }
+
