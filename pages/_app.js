@@ -17,8 +17,9 @@ function MyApp({ Component, pageProps }) {
 
       {/* Google Analytics script */}
       <Script 
-        src={`https://www.googletagmanager.com/gtag/js?id=420191234`} // Replace with your Google Analytics ID
+        src="https://www.googletagmanager.com/gtag/js?id=G-DP2TLCRYQS" 
         strategy="afterInteractive"
+        async
       />
       <Script id="google-analytics-script" strategy="afterInteractive">
         {`
@@ -26,7 +27,7 @@ function MyApp({ Component, pageProps }) {
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', '420191234'); // Replace with your Google Analytics ID
+          gtag('config', 'G-DP2TLCRYQS');
         `}
       </Script>
 
