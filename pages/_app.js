@@ -9,13 +9,14 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <link rel="icon" href="/logo.webp" /> {/* Reference to your logo.png file */}
-        <title>TrailStride</title> {/* You can also set a default title for all pages */}
-        {/* Any other tags you want to include in the head */}
+        <link rel="icon" href="/logo.webp" />
+        <title>TrailStride</title>
+        <meta name="description" content="Explore the great outdoors with TrailStride's durable and comfortable hiking footwear. Embrace adventure with the perfect pair of shoes for your journey." />
+        {/* You can add more tags here as needed */}
       </Head>
-      <NextUIProvider> {/* Removed the theme prop */}
+      <NextUIProvider>
         <Component {...pageProps} />
-        <CookieConsent /> {/* Add the Cookie Consent component */}
+        <CookieConsent />
       </NextUIProvider>
     </>
   );
