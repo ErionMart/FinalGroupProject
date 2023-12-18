@@ -11,51 +11,44 @@ const PrivacyPolicy = () => {
       {/* Introduction Section */}
       <section data-testid="privacy-introduction">
         <h2>Introduction</h2>
-        <p>Welcome to TrailStride Footwear's privacy policy. Your privacy is paramount to us. This document details the personal information we collect, our usage practices, and the steps we take to safeguard your data.</p>
+        <p>Welcome to the privacy policy of TrailStride Footwear, the go-to destination for trail hikers and outdoor enthusiasts. We are committed to protecting your privacy and ensuring that your personal information is handled responsibly and in compliance with applicable data protection laws.</p>
       </section>
 
       {/* Information Collection Section */}
       <section data-testid="privacy-info-collection">
         <h2>What Information We Collect</h2>
         <ul>
-          <li><strong>Personal Identification Information</strong>: We may gather your name, email address, phone number, and shipping address when you register on our site, place an order, subscribe to our newsletter, or participate in our promotions.</li>
-          <li><strong>Non-personal Identification Information</strong>: As you navigate our site, we may collect non-personal data such as your browser type, device specifications, and other technical details related to your interaction with our website, like the operating system and your internet service providers.</li>
+          <li><strong>Personal Identification Information</strong>: We may collect your name, email address, phone number, and shipping address when you make a purchase, sign up for our newsletter, participate in a contest, or engage with us via our contact forms.</li>
+          <li><strong>Non-personal Identification Information</strong>:  We may collect non-personal information about your visit to our website, including browser name, the type of device, and technical information about your means of connection, such as the operating system and Internet service providers utilized.</li>
         </ul>
       </section>
 
       {/* Information Usage Section */}
       <section data-testid="privacy-info-usage">
-        <h2>How We Use Collected Data</h2>
+        <h2>How We Use Collected Data Information</h2>
         <p>TrailStride Footwear may use the information we collect from you in the following ways:</p>
         <ul>
-          <li><strong>To Process Transactions</strong>: Your information, whether public or private, will not be sold, exchanged, transferred, or given to any other company for any reason whatsoever, without your consent, other than for the express purpose of delivering the purchased product or service requested by the customer.</li>
-          <li><strong>To Communicate</strong>: The email address you provide for order processing may be used to send you information and updates pertaining to your order, in addition to receiving occasional company news, updates, related product or service information, etc.</li>
+          <li><strong>Process Transactions: </strong>: Your information, whether public or private, will not be sold or exchanged without your consent, other than for the express purpose of delivering the purchased product or service requested.</li>
+          <li><strong>Improve Customer Service:</strong>: Your information helps us respond more effectively to your customer service requests and support needs.</li>
         </ul>
       </section>
 
       {/* Information Protection Section */}
       <section data-testid="privacy-info-protection">
-        <h2>How We Protect Your Information</h2>
-        <p>We implement a variety of security measures to maintain the safety of your personal information when you place an order or enter, submit, or access your personal information. These measures include data encryption and secure servers to safeguard against unauthorized access, alteration, disclosure, or destruction of your personal information and data stored on our site.</p>
+        <h2>Protection of Your Information</h2>
+        <p>We adopt appropriate data processing practices and security measures to protect against unauthorized access, alteration, disclosure, or destruction of your personal information, username, password, transaction information, and data stored on our site.</p>
       </section>
 
       {/* Information Sharing Section */}
       <section data-testid="privacy-info-sharing">
         <h2>Sharing Your Personal Information</h2>
-        <p>We do not sell, trade, or rent users' identifiable personal information to others. We may share generic demographic information not linked to any personal identification information with our business partners, trusted affiliates, and advertisers for the objectives outlined above.</p>
+        <p>We do not sell, trade, or rent your personal identification information to others. We may share generic aggregated demographic information not linked to any personal identification information with our business partners, trusted affiliates, and advertisers.</p>
       </section>
 
 <section data-testid="privacy-google-analytics">
-  <h2>Use of Google Analytics</h2>
+  <h2>Cookies and Tracking Technologies</h2>
   <p>
-  Our website utilizes Google Analytics to help analyze how visitors use the site. Google Analytics employs "cookies" to collect standard internet log information and visitor behavior information in an anonymous form. We use the data collected to compile reports and to help us improve our site.
-  </p>
-  <p>
-    For more information on how Google uses data when you use our site and how 
-    you can opt out, please visit 
-    <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">
-      Google's policy page.
-    </a>
+  Our website uses "cookies" to enhance the user experience. These cookies track information about visitors and are stored on your computer's hard drive. You may choose to set your web browser to refuse cookies or alert you when cookies are being sent. However, doing so may cause some parts of the site to not function properly.  
   </p>
 </section>
 
@@ -78,13 +71,13 @@ const PrivacyPolicy = () => {
       {/* Policy Changes Section */}
       <section data-testid="privacy-policy-changes">
         <h2>Changes to This Privacy Policy</h2>
-        <p>TrailStride Footwear reserves the right to update this privacy policy at any time. When updated, the revision date at the bottom of this page will reflect the changes. We encourage you to review this policy periodically to stay informed on how we protect your information.</p>
+        <p>TrailStride Footwear has the discretion to update this privacy policy at any time. When we do, we will revise the updated date at the bottom of this page. We encourage you to frequently check this page for any changes to stay informed.</p>
       </section>
 
       {/* Acceptance of Terms Section */}
       <section data-testid="privacy-acceptance">
         <h2>Your Acceptance of These Terms</h2>
-        <p>By using our site, you indicate your acceptance of this policy. If you do not agree to this policy, please do not use our site. Your continued engagement with our site following any changes to this policy will be deemed your acceptance of those changes.</p>
+        <p>By using our site, you signify your acceptance of this policy. If you do not agree to this policy, please do not use our site. Your continued use of the site following the posting of changes will be deemed your acceptance of those changes.</p>
       </section>
 
     </div>
