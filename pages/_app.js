@@ -1,9 +1,10 @@
 // pages/_app.js
 import React from 'react';
-import Head from 'next/head'; // Import the Head component
+import Head from 'next/head';
 import { NextUIProvider } from '@nextui-org/react';
+import Script from 'next/script'; // Import the Script component
 import '../styles/globals.css';
-import CookieConsent from '../components/CookieConsent'; // Import the component
+import CookieConsent from '../components/CookieConsent';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -12,8 +13,23 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/logo.webp" />
         <title>TrailStride</title>
         <meta name="description" content="Explore the great outdoors with TrailStride's durable and comfortable hiking footwear. Embrace adventure with the perfect pair of shoes for your journey." />
-        {/* You can add more tags here as needed */}
       </Head>
+
+      {/* Google Analytics script */}
+      <Script 
+        src={`https://www.googletagmanager.com/gtag/js?id=420191234`} // Replace with your Google Analytics ID
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics-script" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', '420191234'); // Replace with your Google Analytics ID
+        `}
+      </Script>
+
       <NextUIProvider>
         <Component {...pageProps} />
         <CookieConsent />
