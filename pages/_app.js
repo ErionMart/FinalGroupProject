@@ -1,21 +1,39 @@
 // pages/_app.js
 import React from 'react';
-import Head from 'next/head'; // Import the Head component
+import Head from 'next/head';
 import { NextUIProvider } from '@nextui-org/react';
+import Script from 'next/script'; // Import the Script component
 import '../styles/globals.css';
-import CookieConsent from '../components/CookieConsent'; // Import the component
+import CookieConsent from '../components/CookieConsent';
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <link rel="icon" href="/logo.webp" /> {/* Reference to your logo.png file */}
-        <title>TrailStride</title> {/* You can also set a default title for all pages */}
-        {/* Any other tags you want to include in the head */}
+        <link rel="icon" href="/logo.webp" />
+        <title>TrailStride</title>
+        <meta name="description" content="Explore the great outdoors with TrailStride's durable and comfortable hiking footwear. Embrace adventure with the perfect pair of shoes for your journey." />
       </Head>
-      <NextUIProvider> {/* Removed the theme prop */}
+
+      {/* Google Analytics script */}
+      <Script 
+        src="https://www.googletagmanager.com/gtag/js?id=G-DP2TLCRYQS" 
+        strategy="afterInteractive"
+        async
+      />
+      <Script id="google-analytics-script" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-DP2TLCRYQS');
+        `}
+      </Script>
+
+      <NextUIProvider>
         <Component {...pageProps} />
-        <CookieConsent /> {/* Add the Cookie Consent component */}
+        <CookieConsent />
       </NextUIProvider>
     </>
   );

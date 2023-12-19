@@ -60,3 +60,15 @@
   color: #000; /* Dark grey color for description */
   font-size: 1rem; /* Size of the description text */
 }
+
+/* Existing styles... */
+
+@media only screen and (max-width: 768px) {
+  .stylesContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .styleBox {
+    margin-bottom: 20px;
+  }
+}
