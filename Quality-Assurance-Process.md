@@ -23,6 +23,15 @@ Configured Playwright to run tests in different browsers.
 
 PLaywright Example: Testing Navigation page and ensures buttons work correctly
 
+const { test, expect } = require('@playwright/test');
+
+test('navbar should be present and links should work', async ({ page }) => {
+  // Navigate to the page that contains the CookieConsent component
+  await page.goto('http://localhost:3000/');
+
+  // Check if the navbar is in the DOM
+  const navbar = page.locator('nav'); // Replace 'nav' with the actual selector for your navbar
+  await expect(navbar).toBeVisible();
 
 Lighthouse Testing:
 
