@@ -10,7 +10,7 @@
 -Link to the Personal [Here](https://github.com/Armendo90/FinalGroupProject/blob/main/ReadMe/PERSONA.md)
 
 
--Link to the Sales Funnel Stages [Here](https://github.com/Armendo90/FinalGroupProject/blob/main/ReadMe/SALES-FUNNEL.md)
+-Link to the Sales Funnel Stages [Here](https://github.com/Armendo90/FinalGroupProject/blob/main/ReadMe/SALES-FUNNEL.md) 
 
 
 -Link to the User Stories [Here](https://github.com/Armendo90/FinalGroupProject/blob/main/ReadMe/User-Stories.md)
