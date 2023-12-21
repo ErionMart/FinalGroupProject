@@ -1,4 +1,4 @@
--Link to the attendance sheet [Here](https://github.com/Armendo90/FinalGroupProject/blob/main/Attendance%20Schedule)
+-Link to the attendance sheet [Here](https://github.com/ErionMart/FinalGroupProject/blob/main/Attendance%20Schedule)
 
 
 -Link to the Competitors Analysis [Here](https://github.com/Armendo90/FinalGroupProject/blob/main/ReadMe/COMPETITOR-ANALYSIS.md)
